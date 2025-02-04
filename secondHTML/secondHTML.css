@@ -1,0 +1,17 @@
+#divElement {
+
+    background-color: yellow;
+    border: solid;
+    border-color: red;
+
+}
+
+.redText {
+
+    color: red;
+}
+
+span {
+
+    color: green;
+}
