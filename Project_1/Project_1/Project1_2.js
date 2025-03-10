@@ -176,17 +176,7 @@ if (textX < -textWidth(movingText)) {
 
   function mousePressed() {
 
-  let x = 910;
-  let y = 125;
-  let w = textWidth("Go Inside");
-  let h = 30;
 
-  let dMouse = dist(mouseX, mouseY, x,y);
-
-  if (dMouse < w){
-window.open(linkToNewProject, "_self");
-  }
-}
 
     
     let dBuilding = dist(mouseX, mouseY, windowWidth / 2, 300);
