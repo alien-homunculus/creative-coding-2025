@@ -6,15 +6,13 @@ let movingText = "The most memorable memory I had was last summer. It was going 
 let emojiX = -75;
 let speed = 2;
 
-let emojiWidth = 50;
-let emojiHeight = 50;
-
-
 let linkRect = "https://www.amnh.org/";
 let rectX = windowWidth / 2.6;
 let rectY = 200;
 let rectWidth = 500;
 let rectHeight = 200;
+
+
 
 
 function setup() {
@@ -174,8 +172,6 @@ if (textX < -textWidth(movingText)) {
 
   function mousePressed() {
 
-
-
     
     let dBuilding = dist(mouseX, mouseY, windowWidth / 2, 300);
     if (dBuilding < 100) {
@@ -183,5 +179,5 @@ if (textX < -textWidth(movingText)) {
     }
 
 
-
+  }
 
