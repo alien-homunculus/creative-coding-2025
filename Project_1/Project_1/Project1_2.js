@@ -12,9 +12,6 @@ let rectY = 200;
 let rectWidth = 500;
 let rectHeight = 200;
 
-
-
-
 function setup() {
     
     createCanvas(windowWidth, windowHeight);
@@ -170,14 +167,11 @@ if (textX < -textWidth(movingText)) {
  
 
 
-  function mousePressed() {
-
-    
+  function mousePressed() {    
     let dBuilding = dist(mouseX, mouseY, windowWidth / 2, 300);
     if (dBuilding < 100) {
       window.open(linkRect, '_blank');
     }
-
 
   }
 
