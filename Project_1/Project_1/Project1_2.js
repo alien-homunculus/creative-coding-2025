@@ -16,8 +16,6 @@ let rectY = 200;
 let rectWidth = 500;
 let rectHeight = 200;
 
-let linkToNewProject = "Project1_2.html";
-
 
 function setup() {
     
